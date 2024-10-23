@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: lightgreen;
+    
+
+}
+img{
+    width: 100%;
+    display: block;
+}
+/* .menu-outline{
+    size: 20vh;
+} */
+.text{
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+   
+}
+span{
+    width: 30px;
+    height: 30px;
+}
+@media  screen and (width > 600px) {
+    .container {
+        flex: 1 1 22%;
+
+    }
+    
+}
